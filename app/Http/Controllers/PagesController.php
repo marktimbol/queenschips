@@ -10,8 +10,6 @@ class PagesController extends Controller
 {
     public function home() {
 
-    	flash()->success('Yay!', 'Success');
-
     	return view('public.home');
 
     }

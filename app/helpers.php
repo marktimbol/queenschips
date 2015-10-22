@@ -52,7 +52,7 @@ function display($photos, $location = '') {
 
 }
 
-function getPhoto($filename, $title = "Al's Beef Arabia") {
+function getPhoto($filename, $title = "Queen's Chips Arabia") {
 
 	if( ! empty($filename) ) {
 
@@ -69,7 +69,7 @@ function getPhoto($filename, $title = "Al's Beef Arabia") {
 
 }
 
-function defaultImage($title = "Al's Beef Arabia") {
+function defaultImage($title = "Queen's Chips Arabia") {
 
 	return '<img src="'.asset('/images/default.png').'" 
 				alt="'. $title.'" 
