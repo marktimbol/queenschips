@@ -21,7 +21,8 @@ header h1 img {
   font-weight: bold; }
 
 .home .home__concept, .home .home__sauces {
-  background: #faf8eb; }
+  background: #faf8eb;
+  padding: 20px; }
 
 .home .home__prices, .home .home__openings {
   width: 100%;
@@ -37,5 +38,23 @@ header h1 img {
     left: -80px; }
   .home .home__sauces dl dd {
     margin-bottom: 20px; }
+
+.home .home__contact {
+  color: white;
+  background: rgba(92, 140, 112, 0.8);
+  padding: 20px; }
+
+footer {
+  padding: 30px 0px; }
+  footer ul.social-icons {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0; }
+    footer ul.social-icons li {
+      display: inline-block;
+      margin-right: 20px; }
+  footer .copyright {
+    margin-top: 30px; }
 
 /*# sourceMappingURL=app.css.map */

@@ -144,36 +144,9 @@
 
                             <div class="col-md-10 col-md-offset-2">
 
-                                <div class="row wow fadeInRight">
+                                <div class="row">
 
-                                    <div class="col-md-4">
-
-                                        <dl>
-                                            <dt>ANDALUSA</dt>
-                                            <dd>Refined sauce, slightly spicy</dd>
-
-                                            <dt>COCKTAIL</dt>
-                                            <dd>Sauce made with whiskey</dd>
-                                            
-                                            <dt>CURRY</dt>
-                                            <dd>Sauce oriental flavor</dd>
-                                            
-                                            <dt>HOT SHOT</dt>
-                                            <dd>Flavored sauce and spicy</dd>
-                                            
-                                            <dt>CURRY KETCHUP</dt>
-                                            <dd>slightly sweet ketchup and speziatoe</dd>
-                                            
-                                            <dt>MOROCCAN</dt>
-                                            <dd>Eastern spicy taste. Without animal fats</dd>
-                                            
-                                            <dt>ALGERIA</dt>
-                                            <dd>Intense taste. Without animal fats, ideal for vegetarians</dd>
-                                        </dl>
-
-                                    </div>
-
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 
                                         <dl>
                                             <dt>ANDALUSA</dt>
@@ -200,7 +173,34 @@
 
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+
+                                        <dl>
+                                            <dt>ANDALUSA</dt>
+                                            <dd>Refined sauce, slightly spicy</dd>
+
+                                            <dt>COCKTAIL</dt>
+                                            <dd>Sauce made with whiskey</dd>
+                                            
+                                            <dt>CURRY</dt>
+                                            <dd>Sauce oriental flavor</dd>
+                                            
+                                            <dt>HOT SHOT</dt>
+                                            <dd>Flavored sauce and spicy</dd>
+                                            
+                                            <dt>CURRY KETCHUP</dt>
+                                            <dd>slightly sweet ketchup and speziatoe</dd>
+                                            
+                                            <dt>MOROCCAN</dt>
+                                            <dd>Eastern spicy taste. Without animal fats</dd>
+                                            
+                                            <dt>ALGERIA</dt>
+                                            <dd>Intense taste. Without animal fats, ideal for vegetarians</dd>
+                                        </dl>
+
+                                    </div>
+
+                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
 
                                         <dl>
                                             <dt>ANDALUSA</dt>
@@ -246,6 +246,100 @@
         
         </section>        
 
+
+        <section class="home__contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <h3>Contact Us</h3>
+
+                        <form method="POST">
+
+                            {!! csrf_field() !!}
+
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input type="text" name="subject" id="subject" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                            </div>     
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Send Inquiry</button>
+                            </div>                                                                               
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    {!! getPhoto('facebook.png', 'Facebook') !!}
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    {!! getPhoto('instagram.png', 'Instagram') !!}
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    {!! getPhoto('youtube.png', 'Youtube') !!}
+                                </a>
+                            </li>                                                        
+                        </ul>
+
+                        <div class="clearfix"></div>
+
+                        <p class="copyright text-center">
+                            QUEEN'S CHIPS DUBAI | Copyright &copy; {{ date('Y') }}
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
  
 
         @yield('content')
