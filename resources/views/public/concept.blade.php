@@ -23,13 +23,13 @@
 					</div>
 
 					<div class="col-md-6 col-xs-12 wow fadeInRight">
-						{!! defaultImage() !!}
+						{!! getPhoto('the-idea.jpg') !!}
 					</div>
 				</div>
 
 				<div class="row center-content">
 					<div class="col-md-6 col-xs-12 wow fadeInLeft">
-						{!! defaultImage() !!}
+						{!! getPhoto('the-product.jpg') !!}
 					</div>
 
 					<div class="col-md-6 col-xs-12 wow fadeInRight">
@@ -52,12 +52,14 @@
 					</div>
 
 					<div class="col-md-6 col-xs-12 wow fadeInRight">
-						{!! defaultImage() !!}
+						{!! getPhoto('street-food.jpg') !!}
 					</div>
-				</div>								
+				</div>							
 			</div>
 
 		</div>
 	</div>
+
+	<p>&nbsp;</p>
 
 @endsection

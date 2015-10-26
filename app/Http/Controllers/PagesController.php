@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Requests\ContactFormRequest;
+use App\Jobs\SubmitContactForm;
+use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
@@ -33,5 +35,14 @@ class PagesController extends Controller
 
     public function contact() {
     	return view('public.contact');
+    }
+
+    public function postContact(ContactFormRequest $request) {
+
+        $this->dispatchFrom(SubmitContactForm::class, $request);
+
+        flash()->overlay('Yay!', 'Thank you for contacting us. We will get back to you shortly.');
+
+        return redirect()->route('home');
     }
 }

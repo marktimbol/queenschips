@@ -6,15 +6,18 @@
 
         <div class="row">
 
-            <form method="POST">
+            <form method="POST" action="{{ route('contact') }}">
 
                 {!! csrf_field() !!}     
 
                 <div class="col-md-12">
-                     <h3>Contact Us</h3>
+                     <h3>Send us an Inquiry</h3>
                 </div>   
 
                 <div class="col-md-6 wow fadeInLeft">
+
+                    @include('errors.form')
+
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" class="form-control" />

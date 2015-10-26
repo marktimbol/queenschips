@@ -2,17 +2,17 @@
 
 namespace App\Mailers;
 
-use App\User;
-
 class UserMailer extends Mailer {
 
-	public function welcome(User $user) {
 
-		$subject = 'Welcome';
-		$view = 'emails.welcome';
+	public function autoReply($email, $subject) {
+
+		$subject = 'RE: ' . $subject;
+		$view = 'emails.auto-reply';
 		$data = [];
 
-		$this->sendTo($user, $subject, $view, $data);
+		$this->sendTo($email, $subject, $view, $data);
 
 	}
+
 }

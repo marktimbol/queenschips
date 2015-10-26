@@ -5,14 +5,15 @@ namespace App\Mailers;
 class AdminMailer extends Mailer {
 
 
-	public function contact($admin, $userData) {
+	public function inquiry($userData) {
 
-		$subject = 'Contact Form';
-		$view = 'emails.admin.contact';
+		$adminEmail = env('MAIL_FROM_ADDRESS');
+		$subject = 'Contact Form: ' . $userData['subject'];
+		$view = 'emails.admin.inquiry';
 		$data = $userData;
 
 		
-		$this->sendTo($admin, $subject, $view, $data);
+		$this->sendTo($adminEmail, $subject, $view, $data);
 
 	}
 }

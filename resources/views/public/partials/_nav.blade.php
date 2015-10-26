@@ -15,7 +15,7 @@
       <ul class="nav navbar-nav">
         <li><a href="{{ route('concept') }}">Concept</a></li>
         <li><a href="{{ route('gallery') }}">Gallery</a></li>
-        <li><a href="{{ route('franchising') }}">Franchising</a></li>
+        {{-- <li><a href="{{ route('franchising') }}">Franchising</a></li> --}}
         <li><a href="{{ route('store') }}">Store Locator</a></li>
         <li><a href="{{ route('contact') }}">Contact Us</a></li>                        
       </ul>
