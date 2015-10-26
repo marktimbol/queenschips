@@ -181,90 +181,83 @@
 
                     <div class="row">
 
-                        <div class="col-md-10 col-md-offset-2">
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 
-                            <div class="row">
+                            <dl>
+                                <dt>ANDALUSA</dt>
+                                <dd>Refined sauce, slightly spicy</dd>
 
-                                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                                <dt>COCKTAIL</dt>
+                                <dd>Sauce made with whiskey</dd>
+                                
+                                <dt>CURRY</dt>
+                                <dd>Sauce oriental flavor</dd>
+                                
+                                <dt>HOT SHOT</dt>
+                                <dd>Flavored sauce and spicy</dd>
+                                
+                                <dt>CURRY KETCHUP</dt>
+                                <dd>slightly sweet ketchup and speziatoe</dd>
+                                
+                                <dt>MOROCCAN</dt>
+                                <dd>Eastern spicy taste. Without animal fats</dd>
+                                
+                                <dt>ALGERIA</dt>
+                                <dd>Intense taste. Without animal fats, ideal for vegetarians</dd>
+                            </dl>
 
-                                    <dl>
-                                        <dt>ANDALUSA</dt>
-                                        <dd>Refined sauce, slightly spicy</dd>
+                        </div>
 
-                                        <dt>COCKTAIL</dt>
-                                        <dd>Sauce made with whiskey</dd>
-                                        
-                                        <dt>CURRY</dt>
-                                        <dd>Sauce oriental flavor</dd>
-                                        
-                                        <dt>HOT SHOT</dt>
-                                        <dd>Flavored sauce and spicy</dd>
-                                        
-                                        <dt>CURRY KETCHUP</dt>
-                                        <dd>slightly sweet ketchup and speziatoe</dd>
-                                        
-                                        <dt>MOROCCAN</dt>
-                                        <dd>Eastern spicy taste. Without animal fats</dd>
-                                        
-                                        <dt>ALGERIA</dt>
-                                        <dd>Intense taste. Without animal fats, ideal for vegetarians</dd>
-                                    </dl>
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
 
-                                </div>
+                            <dl>
+                                <dt>PITTA</dt>
+                                <dd>Yogurt sauce flavored</dd>
 
-                                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                                <dt>BLACK PEPPER</dt>
+                                <dd>Sauce made of mayonnaise with grains of black pepper</dd>
+                                
+                                <dt>SAMURAI</dt>
+                                <dd>A pink sauce taste dry and spicy</dd>
+                                
+                                <dt>JAMMIE</dt>
+                                <dd>Dijon mustard</dd>
+                                
+                                <dt>SNACK</dt>
+                                <dd>Sweet sauce with bits of onion</dd>
+                                
+                                <dt>MARTINO</dt>
+                                <dd>Sauce of tomato and red pepper</dd>
+                                
+                            </dl>
 
-                                    <dl>
-                                        <dt>PITTA</dt>
-                                        <dd>Yogurt sauce flavored</dd>
+                        </div>
 
-                                        <dt>BLACK PEPPER</dt>
-                                        <dd>Sauce made of mayonnaise with grains of black pepper</dd>
-                                        
-                                        <dt>SAMURAI</dt>
-                                        <dd>A pink sauce taste dry and spicy</dd>
-                                        
-                                        <dt>JAMMIE</dt>
-                                        <dd>Dijon mustard</dd>
-                                        
-                                        <dt>SNACK</dt>
-                                        <dd>Sweet sauce with bits of onion</dd>
-                                        
-                                        <dt>MARTINO</dt>
-                                        <dd>Sauce of tomato and red pepper</dd>
-                                        
-                                    </dl>
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
 
-                                </div>
+                            <dl>
+                                <dt>TARTARA</dt>
+                                <dd>Sauce with onion, parsley and other spices</dd>
 
-                                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                                <dt>BARBECUE</dt>
+                                <dd>Barbecue sauce smoky taste</dd>
+                                
+                                <dt>BURGER</dt>
+                                <dd>Sauce of gherkins</dd>
+                                
+                                <dt>FRITE SAUCE</dt>
+                                <dd>Based sauce lightly flavored mayonnaise</dd>
+                                
+                                <dt>MAYONNAISE</dt>
+                                <dd>&nbsp;</dd>
 
-                                    <dl>
-                                        <dt>TARTARA</dt>
-                                        <dd>Sauce with onion, parsley and other spices</dd>
+                                <dt>KETCHUP</dt>
+                                <dd>&nbsp;</dd>
+                            </dl>
 
-                                        <dt>BARBECUE</dt>
-                                        <dd>Barbecue sauce smoky taste</dd>
-                                        
-                                        <dt>BURGER</dt>
-                                        <dd>Sauce of gherkins</dd>
-                                        
-                                        <dt>FRITE SAUCE</dt>
-                                        <dd>Based sauce lightly flavored mayonnaise</dd>
-                                        
-                                        <dt>MAYONNAISE</dt>
-                                        <dd>&nbsp;</dd>
-
-                                        <dt>KETCHUP</dt>
-                                        <dd>&nbsp;</dd>
-                                    </dl>
-
-                                </div>  
-                            </div>
-                        </div>                                                      
-
+                        </div>  
                     </div>
-
+      
                 </div>
 
             </div>
