@@ -34,6 +34,8 @@ class SubmitContactForm extends Job implements SelfHandling, ShouldQueue
         $this->email = $email;
         $this->subject = $subject;
         $this->message = $message;
+
+        $this->handle(new UserMailer, new AdminMailer);
     }
 
     /**
