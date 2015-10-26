@@ -12,7 +12,7 @@
 */
 
 Route::post('queue/receive', function() {
-	return Queue:marshal();
+	return Queue::marshal();
 });
 
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
