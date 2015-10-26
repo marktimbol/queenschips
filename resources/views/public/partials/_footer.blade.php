@@ -65,19 +65,19 @@
 
                 <ul class="social-icons">
                     <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/queenschips" target="_blank">
                             {!! getPhoto('facebook.png', 'Facebook') !!}
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://instagram.com/queenschips/" target="_blank">
                             {!! getPhoto('instagram.png', 'Instagram') !!}
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://www.youtube.com/channel/UCCMXmJA0XUC3jrU-BqtCuBA" target="_blank">
                             {!! getPhoto('youtube.png', 'Youtube') !!}
                         </a>
                     </li>                                                        
