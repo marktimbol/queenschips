@@ -41,7 +41,7 @@
 
             <div class="row">
 
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-12">
                     
                     <h2 class="h1 home__title wow fadeInUp">Welcome to Queen's Chips</h2>
                 
