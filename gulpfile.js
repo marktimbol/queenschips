@@ -29,6 +29,10 @@ elixir(function(mix) {
             bowers + 'sweetalert/dist/sweetalert.min.js'
             ], 'public/js/sweetalert.js')
 
+        .scripts([
+            'map.js'
+            ], 'public/js/map.js')        
+
         .version([
 
             /*=== PUBLIC ===*/
@@ -37,5 +41,7 @@ elixir(function(mix) {
 
             'css/sweetalert.css',
             'js/sweetalert.js',
+
+            'js/map.js'
             ]);
 });

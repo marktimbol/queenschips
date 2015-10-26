@@ -13,4 +13,25 @@ class PagesController extends Controller
     	return view('public.home');
 
     }
+
+    public function concept() {
+
+    	return view('public.concept');
+    }
+
+    public function gallery() {
+    	return view('public.gallery');
+    }
+
+    public function franchising() {
+    	return view('public.franchising');
+    }
+
+    public function store() {
+    	return view('public.store-locator');
+    }
+
+    public function contact() {
+    	return view('public.contact');
+    }
 }

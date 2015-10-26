@@ -12,3 +12,8 @@
 */
 
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
+Route::get('/concept', ['as' => 'concept', 'uses' => 'PagesController@concept']);
+Route::get('/gallery', ['as' => 'gallery', 'uses' => 'PagesController@gallery']);
+Route::get('/franchising', ['as' => 'franchising', 'uses' => 'PagesController@franchising']);
+Route::get('/store', ['as' => 'store', 'uses' => 'PagesController@store']);
+Route::get('/contact', ['as' => 'contact', 'uses' => 'PagesController@contact']); 
