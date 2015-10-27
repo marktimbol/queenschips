@@ -1,0 +1,13 @@
+$cream: #faf8eb;
+$green: #2A4634;
+$yellow: #FECC0C;
+
+.navbar {
+	border-radius: 0px !important;
+
+	&.navbar-inverse {
+		background-color: $green;
+
+	}
+
+}

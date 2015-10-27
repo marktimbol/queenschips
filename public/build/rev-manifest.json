@@ -1,6 +1,8 @@
 {
-  "css/public.css": "css/public-c7380e3ce9.css",
+  "css/admin.css": "css/admin-ef56a84681.css",
+  "css/public.css": "css/public-ca936be143.css",
   "css/sweetalert.css": "css/sweetalert-0b6e2b0707.css",
+  "js/admin.js": "js/admin-40bc54d2f3.js",
   "js/map.js": "js/map-eb655ef213.js",
   "js/public.js": "js/public-28304bc047.js",
   "js/sweetalert.js": "js/sweetalert-f6735f9deb.js"

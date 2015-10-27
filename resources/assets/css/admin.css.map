@@ -1,0 +1,1 @@
+{"version":3,"sources":["admin.scss"],"names":[],"mappings":"AAIA;EACC,8BAA8B,EADtB;EAGP;IACA,0BAPa,EAMI","file":"admin.css","sourcesContent":["$cream: #faf8eb;\r\n$green: #2A4634;\r\n$yellow: #FECC0C;\r\n\r\n.navbar {\r\n\tborder-radius: 0px !important;\r\n\r\n\t&.navbar-inverse {\r\n\t\tbackground-color: $green;\r\n\r\n\t}\r\n\r\n}"],"sourceRoot":"/source/"}

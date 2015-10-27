@@ -32,7 +32,26 @@ elixir(function(mix) {
 
         .scripts([
             'map.js'
-            ], 'public/js/map.js')        
+            ], 'public/js/map.js')  
+
+
+    /*=== ADMIN SCRIPTS ===*/
+    mix.sass('admin.scss', 'resources/assets/css/admin.css')
+
+        .styles([
+            bowers + 'bootstrap/dist/css/bootstrap.css',
+            bowers + 'metisMenu/dist/metisMenu.css',
+            bowers + 'font-awesome/css/font-awesome.css',
+            'admin-template.css',
+            'admin.css',
+            ], 'public/css/admin.css')
+
+        .scripts([
+            bowers + 'jquery/dist/jquery.js',
+            bowers + 'bootstrap/dist/js/bootstrap.js',
+            bowers + 'metisMenu/dist/metisMenu.js',
+            'admin.js'
+            ], 'public/js/admin.js')        
 
         .version([
 
@@ -43,6 +62,10 @@ elixir(function(mix) {
             'css/sweetalert.css',
             'js/sweetalert.js',
 
-            'js/map.js'
+            'js/map.js',
+
+            /*=== ADMIN ===*/
+            'css/admin.css',
+            'js/admin.js'
             ]);
 });
