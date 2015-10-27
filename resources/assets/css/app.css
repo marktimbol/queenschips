@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background: #fef9f7; }
 
 .bg {
   overflow: hidden;
@@ -81,8 +82,8 @@ header h1 img {
   position: relative; }
   .home .home__sauces .sauce {
     position: absolute;
-    top: 0;
-    left: -110px; }
+    bottom: 0;
+    right: -50px; }
   .home .home__sauces dl dd {
     margin-bottom: 20px; }
 

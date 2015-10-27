@@ -22,3 +22,20 @@ Route::get('/franchising', ['as' => 'franchising', 'uses' => 'PagesController@fr
 Route::get('/store', ['as' => 'store', 'uses' => 'PagesController@store']);
 Route::get('/contact', ['as' => 'contact', 'uses' => 'PagesController@contact']); 
 Route::post('/contact', ['as' => 'contact', 'uses' => 'PagesController@postContact']); 
+
+
+// Authentication routes...
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+
+// Registration routes...
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {	
+	
+	Route::get('/', ['as' => 'admin', 'uses' => 'Admin\AdminController@home']);
+
+});
