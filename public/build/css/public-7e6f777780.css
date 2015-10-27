@@ -11882,11 +11882,9 @@ header h1 img {
 .home .home__bg {
   width: 100%;
   min-height: 100%;
+  margin-top: -22px;
   background: url("../../images/bg.jpg") no-repeat center center fixed;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0; }
+  background-size: cover; }
   .home .home__bg .logo {
     padding-top: 20px; }
 

@@ -25,6 +25,7 @@ elixir(function(mix) {
     		'app.js'
     		], 'public/js/public.js')
 
+
         .scripts([
             bowers + 'sweetalert/dist/sweetalert.min.js'
             ], 'public/js/sweetalert.js')

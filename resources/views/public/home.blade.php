@@ -10,6 +10,7 @@
 
 @section('content')
 
+  
     <section class="home__bg">
 
         <header>
