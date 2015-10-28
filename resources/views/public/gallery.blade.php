@@ -25,7 +25,7 @@
 
 							@foreach($galleries as $gallery)
 
-								<figure>
+								<figure class="wow fadeInLeft" data-wow-delay="0.2s">
 									<a href="{{ asset($gallery->photo) }}" data-size="{{ $gallery->photo_size }}">
 										<img src="{{ asset($gallery->photo) }}" alt="" class="img-responsive img-thumbnail" />
 									</a>                      
