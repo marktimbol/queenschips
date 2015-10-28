@@ -23,16 +23,17 @@
 
 						<div class="photo-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-							<?php $delay=2; ?>
+							<?php $delay=0.2; ?>
+
 							@foreach($galleries as $gallery)
 
-								<figure class="wow fadeInLeft" data-wow-delay="0.{{$delay}}s">
+								<figure class="wow fadeInLeft" data-wow-delay="{{ $delay }}s">
 									<a href="{{ asset($gallery->photo) }}" data-size="{{ $gallery->photo_size }}">
 										<img src="{{ asset($gallery->photo) }}" alt="" class="img-responsive img-thumbnail" />
 									</a>                      
 								</figure>
 
-								<?php $delay++ ?>
+								<?php $delay+= 0.1 ?>
 
 							@endforeach
 
