@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Gallery;
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Http\Requests\ContactFormRequest;
@@ -22,7 +23,10 @@ class PagesController extends Controller
     }
 
     public function gallery() {
-    	return view('public.gallery');
+
+        $galleries = Gallery::latest()->get();
+
+    	return view('public.gallery', compact('galleries'));
     }
 
     public function franchising() {

@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Queen's Chips - Admin</title>
+        <title>@yield('pageTitle') | Queen's Chips Arabia</title>
 
         <link rel="stylesheet" href="{{ elixir('css/admin.css') }}" />
 
@@ -18,6 +18,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        @yield('header_styles')
+
     </head>
 
     <body>
@@ -27,25 +29,17 @@
             @include('admin.partials._nav')
 
             <div id="page-wrapper">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">Dashboard</h1>
-                    </div>
-                </div>
-                
-                @include('admin._statistics')
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        
-                        @yield('content')
-
-                    </div>
-                </div>
+                @yield('content')
+            
             </div>
         </div>
 
         <script src="{{ elixir('js/admin.js') }}"></script>
+
+        @yield('footer_scripts')
+
+        @include('flash')
 
     </body>
 

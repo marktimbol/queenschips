@@ -52,14 +52,23 @@ function display($photos, $location = '') {
 
 }
 
-function getPhoto($filename, $title = "Queen's Chips Arabia") {
+function getPhoto($filename, $title = "Queen's Chips Arabia", $hasOwnPath = false) {
 
 	if( ! empty($filename) ) {
 
-		return '<img src="'.asset('images/'. $filename).'" 
+		if( $hasOwnPath ) {
+
+			return '<img src="'.asset($filename).'" 
 					alt="'. $title.'" 
 					title="'.$title .'"
-					class="img-responsive" />';
+					class="img-responsive img-thumbnail" />';
+		}
+
+		return '<img src="'.asset('images/'. $filename).'" 
+				alt="'. $title.'" 
+				title="'.$title .'"
+				class="img-responsive" />';
+		
 
 	} else {
 

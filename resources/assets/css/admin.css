@@ -3,4 +3,14 @@
   .navbar.navbar-inverse {
     background-color: #2A4634; }
 
+.gallery .gallery__photo {
+  position: relative; }
+  .gallery .gallery__photo .gallery__delete {
+    display: none;
+    top: 5px;
+    right: 5px;
+    position: absolute; }
+  .gallery .gallery__photo:hover .gallery__delete {
+    display: block; }
+
 /*# sourceMappingURL=admin.css.map */

@@ -11,3 +11,25 @@ $yellow: #FECC0C;
 	}
 
 }
+
+.gallery {
+
+	.gallery__photo {
+
+		position: relative;
+
+		.gallery__delete {
+			display: none;
+			top: 5px;
+			right: 5px;
+			position: absolute;
+		}
+
+		&:hover {
+
+			.gallery__delete {
+				display: block;
+			}
+		}
+	}
+}

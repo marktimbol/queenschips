@@ -24,5 +24,8 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {	
 	
 	Route::get('/', ['as' => 'admin', 'uses' => 'Admin\AdminController@home']);
+	Route::resource('galleries', 'Admin\GalleriesController', [
+		'only'	=> ['index','store','destroy']
+		]);
 
 });
