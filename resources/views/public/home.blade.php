@@ -104,7 +104,7 @@
 
     </section>  
 
-    <section class="home__prices">
+{{--     <section class="home__prices">
 
         <div class="container">
 
@@ -160,7 +160,7 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
     <section class="home__sauces">
 
@@ -286,7 +286,7 @@
 
                             <div class="col-md-7">
 
-                                <h3>Upcoming Openings</h3>
+                                <h3>Upcoming Openings (Coming Soon)</h3>
 
                             </div>
 
